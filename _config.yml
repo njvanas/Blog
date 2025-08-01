@@ -1,6 +1,6 @@
 title: "DevLog & Homelab Chronicles"
 description: "Technical deep-dives, homelab adventures, and lessons learned from the trenches"
-baseurl: ""
+baseurl: "/Blog"
 url: "https://njvanas.github.io"
 author: "Your Name"
 email: "your.email@example.com"
@@ -13,6 +13,10 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+# GitHub Pages specific settings
+repository: njvanas/Blog
+github_username: njvanas
 
 # Collections
 collections:
@@ -38,6 +42,10 @@ kramdown:
       line_numbers: false
     block:
       line_numbers: true
+
+# GitHub Pages safe mode
+safe: true
+incremental: false
 
 # Exclude from processing
 exclude:
