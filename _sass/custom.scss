@@ -1,0 +1,50 @@
+// Custom SCSS variables and mixins
+$primary-color: #4299e1;
+$secondary-color: #2d3748;
+$accent-color: #68d391;
+$warning-color: #f6ad55;
+$danger-color: #fc8181;
+$success-color: #68d391;
+
+// Responsive breakpoints
+$mobile: 768px;
+$tablet: 1024px;
+
+// Mixins
+@mixin mobile {
+  @media (max-width: #{$mobile}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: #{$tablet}) {
+    @content;
+  }
+}
+
+// Custom button styles
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  
+  &.btn-primary {
+    background-color: $primary-color;
+    color: white;
+    
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+}
+
+// Enhanced typography
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: lighten($secondary-color, 20%);
+}
