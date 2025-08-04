@@ -4,10 +4,10 @@ title: Archive
 permalink: /archive/
 ---
 
-# Post Archive
-
-<div class="alert alert-info">
-📚 <strong>Complete Archive</strong> Browse all technical posts organized by year. Use the tags to filter by topic or search for specific technologies.
+<div class="section-header">
+  <h2>Post Archive</h2>
+  <div class="section-divider"></div>
+  <p>Complete archive of technical posts organized by year. Use the tags to filter by topic or search for specific technologies.</p>
 </div>
 
 {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
@@ -19,7 +19,7 @@ permalink: /archive/
       {% for post in year.items %}
         <li class="post-item">
           <div class="post-meta">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d" }}</time>
+            <time datetime="{{ post.date | date_to_xmlschema }}">📅 {{ post.date | date: "%B %-d" }}</time>
             {% if post.tags.size > 0 %}
               <div class="post-tags">
                 {% for tag in post.tags %}

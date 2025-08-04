@@ -6,13 +6,18 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Latest Posts" }}</h2>
+    <div class="section-header">
+      <h2>{{ page.list_title | default: "Latest Posts" }}</h2>
+      <div class="section-divider"></div>
+      <p>Recent technical adventures and lessons learned from the infrastructure trenches</p>
+    </div>
+    
     <ul class="post-list">
       {%- for post in site.posts limit: 6 -%}
       <li class="post-item">
         <div class="post-meta">
           {%- assign date_format = site.minima.date_format | default: "%B %-d, %Y" -%}
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time>
+          <time datetime="{{ post.date | date_to_xmlschema }}">📅 {{ post.date | date: date_format }}</time>
           {%- if post.tags.size > 0 -%}
             <div class="post-tags">
               {%- for tag in post.tags limit: 3 -%}
@@ -33,7 +38,7 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    <div style="text-align: center; margin-top: 2rem;">
+    <div style="text-align: center; margin-top: 3rem;">
       <a href="{{ "/archive" | relative_url }}" class="btn btn-primary">View All Posts →</a>
     </div>
   {%- endif -%}
