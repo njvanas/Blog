@@ -8,7 +8,6 @@ email: "nick@njvanas.com"
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
