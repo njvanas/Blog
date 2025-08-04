@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 
-# About Nick Vanas
+# About NJ van As
 
 <div class="alert alert-info">
-💡 <strong>Welcome!</strong> I'm Nick, a DevOps engineer and cloud architect passionate about building reliable, scalable infrastructure. This blog documents my technical journey, from homelab experiments to production-grade cloud implementations.
+💡 <strong>Welcome!</strong> I'm NJ, a DevOps engineer and cloud architect passionate about building reliable, scalable infrastructure. This blog documents my technical journey, from homelab experiments to production-grade cloud implementations.
 </div>
 
 ## Professional Background
@@ -108,7 +108,7 @@ I'm always interested in connecting with fellow infrastructure enthusiasts, whet
 
 ### 🔗 **Professional Networks**
 - **GitHub**: [@njvanas](https://github.com/njvanas) - Open source contributions and project repositories
-- **LinkedIn**: [Nick Vanas](https://linkedin.com/in/nickvanas) - Professional updates and industry insights
+- **LinkedIn**: [NJ van As](https://linkedin.com/in/njvanas) - Professional updates and industry insights
 - **Email**: Available in the footer for direct communication
 
 ### 💬 **Community Engagement**
