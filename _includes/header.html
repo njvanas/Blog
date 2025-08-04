@@ -1,0 +1,113 @@
+<header class="site-header" role="banner">
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    
+    <div class="header-content">
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+        <span class="site-title-main">{{ site.title | escape }}</span>
+        <span class="site-title-sub">{{ site.description | escape }}</span>
+      </a>
+
+      {%- if page_paths -%}
+        <nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <label for="nav-trigger" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+
+          <div class="trigger">
+            <a class="page-link" href="{{ "/" | relative_url }}">Home</a>
+            {%- for path in page_paths -%}
+              {%- assign my_page = site.pages | where: "path", path | first -%}
+              {%- if my_page.title -%}
+              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        </nav>
+      {%- endif -%}
+    </div>
+  </div>
+</header>
+
+<style>
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.menu-icon span {
+  width: 25px;
+  height: 3px;
+  background: var(--text-color);
+  margin: 3px 0;
+  transition: 0.3s;
+  border-radius: 2px;
+}
+
+.nav-trigger {
+  display: none;
+}
+
+.trigger {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: flex;
+  }
+  
+  .trigger {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--bg-color);
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: var(--shadow);
+    border-top: 1px solid var(--border-color);
+  }
+  
+  .nav-trigger:checked ~ .trigger {
+    display: flex;
+  }
+  
+  .nav-trigger:checked ~ .menu-icon span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .nav-trigger:checked ~ .menu-icon span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .nav-trigger:checked ~ .menu-icon span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
+  .page-link {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border-light);
+  }
+  
+  .page-link:last-child {
+    border-bottom: none;
+  }
+}
+</style>

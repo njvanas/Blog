@@ -1,9 +1,9 @@
-title: "DevLog & Homelab Chronicles"
-description: "Technical deep-dives, homelab adventures, and lessons learned from the trenches"
+title: "Nick Vanas - DevOps & Cloud Architecture"
+description: "Technical blog documenting homelab adventures, cloud certifications, and real-world problem-solving"
 baseurl: "/Blog"
 url: "https://njvanas.github.io"
-author: "Your Name"
-email: "your.email@example.com"
+author: "Nick Vanas"
+email: "nick@njvanas.com"
 
 # Build settings
 markdown: kramdown
@@ -17,6 +17,24 @@ plugins:
 # GitHub Pages specific settings
 repository: njvanas/Blog
 github_username: njvanas
+linkedin_username: nickvanas
+
+# Navigation
+header_pages:
+  - about.md
+  - archive.md
+
+# SEO and social
+twitter:
+  username: njvanas
+  card: summary
+
+social:
+  name: Nick Vanas
+  links:
+    - https://github.com/njvanas
+    - https://linkedin.com/in/nickvanas
+    - https://njvanas.github.io
 
 # Collections
 collections:
@@ -31,7 +49,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Your Name"
+      author: "Nick Vanas"
 
 # Syntax highlighting
 kramdown:
@@ -42,6 +60,9 @@ kramdown:
       line_numbers: false
     block:
       line_numbers: true
+
+# Show excerpts on home page
+show_excerpts: true
 
 # GitHub Pages safe mode
 safe: true
@@ -57,3 +78,6 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - README.md
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/

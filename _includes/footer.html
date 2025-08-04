@@ -1,0 +1,56 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <h3 class="footer-heading">{{ site.title | escape }}</h3>
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+          </li>
+          {%- if site.email -%}
+          <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <h4>Connect</h4>
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <h4>About This Blog</h4>
+        <p>{{- site.description | escape -}}</p>
+        <p><a href="{{ "/feed.xml" | relative_url }}">RSS Feed</a> • <a href="{{ "/archive" | relative_url }}">Post Archive</a></p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author | escape }}. Built with Jekyll and hosted on GitHub Pages.</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #94a3b8;
+  font-size: 0.875rem;
+}
+
+.footer-col h4 {
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+</style>

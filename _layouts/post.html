@@ -1,0 +1,144 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <div class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%B %-d, %Y" -%}
+        📅 {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">👤 {{ page.author }}</span>
+          </span>
+      {%- endif -%}
+      {%- if page.tags.size > 0 -%}
+        <div class="post-tags">
+          {%- for tag in page.tags -%}
+            <span class="tag">{{ tag }}</span>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+    </div>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    <div class="post-navigation">
+      {%- if page.previous.url -%}
+        <a class="prev-post" href="{{ page.previous.url | relative_url }}">
+          ← {{ page.previous.title | truncate: 50 }}
+        </a>
+      {%- endif -%}
+      {%- if page.next.url -%}
+        <a class="next-post" href="{{ page.next.url | relative_url }}">
+          {{ page.next.title | truncate: 50 }} →
+        </a>
+      {%- endif -%}
+    </div>
+    
+    <div class="post-share">
+      <p><strong>Found this helpful?</strong> Share it with others who might benefit:</p>
+      <div class="share-buttons">
+        <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ page.url }}" target="_blank" rel="noopener">
+          Share on Twitter
+        </a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}" target="_blank" rel="noopener">
+          Share on LinkedIn
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
+
+<style>
+.post-footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--border-color);
+}
+
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.prev-post, .next-post {
+  flex: 1;
+  padding: 1rem;
+  background: var(--bg-light);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.prev-post:hover, .next-post:hover {
+  background: var(--primary-color);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.next-post {
+  text-align: right;
+}
+
+.post-share {
+  text-align: center;
+  padding: 2rem;
+  background: var(--bg-light);
+  border-radius: var(--radius);
+}
+
+.share-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.share-buttons a {
+  padding: 0.75rem 1.5rem;
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: var(--radius);
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.share-buttons a:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+@media screen and (max-width: 768px) {
+  .post-navigation {
+    flex-direction: column;
+  }
+  
+  .next-post {
+    text-align: left;
+  }
+  
+  .share-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+</style>
