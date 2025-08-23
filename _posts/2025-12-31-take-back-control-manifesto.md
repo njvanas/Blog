@@ -1,6 +1,6 @@
 ---
 title: "Take Back Control: Stop Subscriptions, Stop the Data Theft"
-date: 2125-12-31
+date: 2025-12-31
 tags: [manifesto, privacy, digital-rights, resistance]
 layout: post
 ---
