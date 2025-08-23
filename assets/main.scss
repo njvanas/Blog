@@ -102,6 +102,110 @@ a {
   }
 }
 
+// Manifesto banner styling
+.manifesto-banner {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+  color: var(--text-white);
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  margin-bottom: 3rem;
+  border: 2px solid #ef4444;
+  box-shadow: var(--shadow-xl);
+  position: relative;
+  overflow: hidden;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.1) 50%, transparent 70%);
+    animation: shine 3s infinite;
+  }
+  
+  .manifesto-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    
+    h2 {
+      font-size: 1.75rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      
+      @media (min-width: 768px) {
+        font-size: 2.25rem;
+      }
+    }
+    
+    p {
+      font-size: 1.125rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+      
+      &:last-of-type {
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+  
+  .manifesto-cta {
+    .btn {
+      background: var(--text-white);
+      color: #dc2626;
+      font-weight: 800;
+      padding: 1rem 2rem;
+      font-size: 1.125rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      
+      &:hover {
+        background: #f3f4f6;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+      }
+    }
+  }
+}
+
+@keyframes shine {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+@media screen and (max-width: 768px) {
+  .manifesto-banner {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    
+    .manifesto-content {
+      h2 {
+        font-size: 1.5rem;
+      }
+      
+      p {
+        font-size: 1rem;
+        
+        &:last-of-type {
+          font-size: 1.125rem;
+        }
+      }
+    }
+    
+    .manifesto-cta .btn {
+      padding: 0.875rem 1.5rem;
+      font-size: 1rem;
+    }
+  }
+}
+
 // Layout wrapper
 .wrapper {
   max-width: 1200px;
