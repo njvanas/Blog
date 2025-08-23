@@ -8,7 +8,7 @@ title: "Technical Blog"
   <p class="lead">Documenting homelab adventures, cloud certifications, and real-world problem-solving in modern infrastructure</p>
   <div class="cta-buttons">
     <a href="/Blog/archive/" class="btn btn-primary">Browse All Posts</a>
-    <a href="/Blog/about/" class="btn btn-secondary">About Nick</a>
+    <a href="/Blog/about/" class="btn btn-secondary">About NJ van As</a>
   </div>
 </div>
 
