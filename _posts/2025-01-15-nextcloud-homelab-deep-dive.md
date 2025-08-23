@@ -1,6 +1,6 @@
 ---
 title: "Building a Bulletproof Nextcloud Homelab: Lessons from the Trenches"
-date: 2024-01-15
+date: 2025-01-15
 tags: [homelab, selfhosted, nextcloud, docker, traefik, troubleshooting]
 layout: post
 ---
