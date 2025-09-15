@@ -212,6 +212,11 @@ For each governance topic:
 - **Long-term goal**: AZ-305 Azure Solutions Architect Expert
 - **Specialization focus**: DevOps and infrastructure automation
 - **Continuous learning**: Stay current with Azure updates and new services
+- **Next target**: SC-900 Microsoft Security, Compliance, and Identity Fundamentals (planned for completion by end of 2025)
+- **Following target**: AZ-104 Azure Administrator (planned for Q1 2026)
+- **Long-term goal**: AZ-305 Azure Solutions Architect Expert
+- **Specialization focus**: Security, compliance, and DevOps automation
+- **Continuous learning**: Stay current with Azure updates, security best practices, and new services
 
 ---
 
