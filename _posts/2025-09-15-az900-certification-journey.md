@@ -28,7 +28,6 @@ What started as a goal to understand cloud fundamentals turned into a deep dive 
 # 🧱 Project / Setup Context
 
 - **Certification Goal**: Microsoft AZ-900 Azure Fundamentals
-- **Study Duration**: 30 days (November 9 - December 9, 2024)
  **Study Duration**: 30 days (August 13 - September 12, 2025)
 - **Background**: DevOps engineer working with Azure daily, seeking formal certification
 - **Study Resources**:
@@ -209,10 +208,6 @@ For each governance topic:
 4. **Practice explaining concepts to others**: Teaching reinforces understanding and identifies gaps
 
 ## Future Certification Path
-- **Next target**: AZ-104 Azure Administrator (planned for Q1 2026)
-- **Long-term goal**: AZ-305 Azure Solutions Architect Expert
-- **Specialization focus**: DevOps and infrastructure automation
-- **Continuous learning**: Stay current with Azure updates and new services
 - **Next target**: SC-900 Microsoft Security, Compliance, and Identity Fundamentals (planned for completion by end of 2025)
 - **Following target**: AZ-104 Azure Administrator (planned for Q1 2026)
 - **Long-term goal**: AZ-305 Azure Solutions Architect Expert
