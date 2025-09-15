@@ -16,7 +16,7 @@ title: "Technical Blog"
 
 <div class="hero-section">
   <h1>DevOps & Cloud Architecture</h1>
-  <p class="lead">Documenting homelab adventures, cloud certifications, and real-world problem-solving in modern infrastructure</p>
+  <p class="lead">Documenting Azure certification journey, homelab adventures, and real-world problem-solving in modern cloud infrastructure</p>
   <div class="cta-buttons">
     <a href="/Blog/archive/" class="btn btn-primary">Browse All Posts</a>
     <a href="/Blog/about/" class="btn btn-secondary">About NJ van As</a>
@@ -44,8 +44,8 @@ title: "Technical Blog"
   
   <div class="section-card">
     <div class="section-icon">📚</div>
-    <h3>Learning Notes</h3>
-    <p>Certification study guides, technology reviews, and continuous learning documentation.</p>
+    <h3>Certification Journey</h3>
+    <p>Azure certification experiences, study strategies, and professional development in cloud technologies.</p>
   </div>
 </div>
 

@@ -43,7 +43,7 @@ This isn't just another tech blog - it's a detailed chronicle of problems encoun
 - **Automation Projects**: Home Assistant, monitoring stacks, and custom integrations
 
 ### 📚 **Certification Journey**
-- **Azure Certifications**: AZ-104, AZ-204, AZ-305 study guides and exam experiences
+- **Azure Certifications**: AZ-900 (✅ Completed), SC-900, AZ-104, AZ-305 study guides and exam experiences
 - **AWS Learning Path**: Solutions Architect, DevOps Engineer certification prep
 - **Kubernetes Expertise**: CKA, CKAD preparation and hands-on labs
 - **Security Focus**: Cloud security certifications and best practices
@@ -90,6 +90,7 @@ Over time, this blog becomes a searchable knowledge base of solutions, configura
 
 ## Current Focus Areas
 
+- **Azure Certification Path**: Systematic progression through Microsoft's certification framework
 - **Platform Engineering**: Building developer-friendly infrastructure platforms
 - **FinOps**: Advanced cloud cost management and optimization strategies
 - **AI/ML Operations**: MLOps pipelines and model deployment strategies

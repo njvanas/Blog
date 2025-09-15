@@ -30,7 +30,7 @@ What started as a goal to understand cloud fundamentals turned into a deep dive 
 - **Certification Goal**: Microsoft AZ-900 Azure Fundamentals
 - **Study Duration**: 30 days (November 9 - December 9, 2024)
  **Study Duration**: 30 days (August 13 - September 12, 2025)
-- **Background**: DevOps engineer with strong on-premises experience, minimal cloud knowledge
+- **Background**: DevOps engineer working with Azure daily, seeking formal certification
 - **Study Resources**:
   - Microsoft Learn (primary resource)
   - Azure free tier account for hands-on practice
@@ -40,9 +40,10 @@ What started as a goal to understand cloud fundamentals turned into a deep dive 
 
 - **Initial Knowledge Level**:
   - Strong infrastructure and networking background
+  - Daily Azure experience in production environments
   - Familiar with virtualization and containerization
-  - Limited cloud computing experience
-  - No prior Azure exposure
+  - Working knowledge of Azure services and concepts
+  - Existing hands-on experience with Azure deployments
   - Understanding of general IT concepts and terminology
 
 - **Study Constraints**:
@@ -195,10 +196,10 @@ For each governance topic:
 
 ## Success Metrics
 - ✅ Passed AZ-900 on September 12, 2025 (first attempt)
-- ✅ Scored above 850/1000 (exact score: 867)
+- ✅ Pass mark was 700/1000, received 37 challenging questions
 - ✅ Completed all Microsoft Learn modules in the official path
 - ✅ Achieved 90%+ on practice exams consistently
-- ✅ Built foundational understanding of cloud computing concepts
+- ✅ Formalized existing Azure knowledge with official certification
 - ✅ **Official Microsoft Credential**: [Verified AZ-900 Certificate](https://learn.microsoft.com/api/credentials/share/en-us/NJvanAs-2563/1B0DFB6C13CB87EF?sharingId=22E7BEB2A2B33ED7)
 
 ## What I'd Improve Next Time
@@ -343,11 +344,11 @@ Below is the comprehensive mapping guide I created, linking exam scenarios to sp
 
 > This certification journey taught me that cloud computing isn't just about technology—it's about transforming how businesses operate, scale, and innovate. The AZ-900 provides a solid foundation for understanding not just what Azure can do, but why and when to use it.
 
-The 30-day timeline was aggressive but achievable with focused effort and the right resources. Microsoft Learn proved to be comprehensive and perfectly aligned with the exam objectives. The key was shifting from memorization to understanding the business context and practical applications of each service.
+The 30-day timeline allowed me to formalize my existing Azure knowledge and fill in gaps around governance, compliance, and cost management. Microsoft Learn proved to be comprehensive and perfectly aligned with the exam objectives. The key was connecting my practical experience to the formal concepts and business context that the certification covers.
 
-Most importantly, I learned that certification is just the beginning. The real value comes from applying these concepts in real-world scenarios and continuing to build on this foundation with more advanced certifications and hands-on experience.
+Most importantly, I learned that certification validates and structures existing knowledge while highlighting areas for deeper study. Having worked with Azure daily, the certification process helped me understand the broader business context and governance aspects that complement hands-on technical skills.
 
-The journey from zero Azure knowledge to certified professional was challenging but incredibly rewarding. It opened up new career opportunities and provided the confidence to architect cloud solutions for complex business requirements.
+The journey from practical Azure experience to formal certification was valuable for career advancement and provided structured knowledge around areas I hadn't explored deeply in my day-to-day work, particularly around compliance, governance, and cost optimization strategies.
 
 Next stop: AZ-104 Azure Administrator certification! 🚀
 
