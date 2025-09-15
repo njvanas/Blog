@@ -90,7 +90,6 @@ Over time, this blog becomes a searchable knowledge base of solutions, configura
 
 ## Current Focus Areas
 
-### 🚀 **2024 Learning Goals**
 - **Platform Engineering**: Building developer-friendly infrastructure platforms
 - **FinOps**: Advanced cloud cost management and optimization strategies
 - **AI/ML Operations**: MLOps pipelines and model deployment strategies
@@ -101,17 +100,11 @@ Over time, this blog becomes a searchable knowledge base of solutions, configura
 - **Cloud Cost Optimizer**: Open-source tool for multi-cloud cost analysis
 - **Kubernetes Learning Lab**: Hands-on training environment for container orchestration
 - **Infrastructure Templates**: Reusable Terraform modules for common patterns
-
 ## Connect & Collaborate
 
-I'm always interested in connecting with fellow infrastructure enthusiasts, whether you're just starting your homelab journey or managing enterprise-scale deployments.
 
 ### 🔗 **Professional Networks**
 - **GitHub**: [@njvanas](https://github.com/njvanas) - Open source contributions and project repositories
-- **LinkedIn**: [NJ van As](https://linkedin.com/in/njvanas) - Professional updates and industry insights
-- **Email**: Available in the footer for direct communication
-
-### 💬 **Community Engagement**
 - **Technical Discussions**: Always happy to discuss architecture decisions and troubleshooting approaches
 - **Mentorship**: Open to helping others navigate their DevOps and cloud journey
 - **Collaboration**: Interested in contributing to open-source infrastructure projects
