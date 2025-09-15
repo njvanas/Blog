@@ -6,7 +6,7 @@ layout: post
 ---
 
 # 📘 Overview
-> I successfully passed the AZ-900 Microsoft Azure Fundamentals certification on December 9th, 2024, after 30 days of focused study. This post documents my complete learning journey, study strategy, and the comprehensive Microsoft Learn mapping guide I created to master each exam domain systematically.
+> I successfully passed the AZ-900 Microsoft Azure Fundamentals certification on September 12th, 2025, after 30 days of focused study. This post documents my complete learning journey, study strategy, and the comprehensive Microsoft Learn mapping guide I created to master each exam domain systematically.
 
 What started as a goal to understand cloud fundamentals turned into a deep dive into Azure's ecosystem. The AZ-900 isn't just about memorizing services—it's about understanding how cloud computing transforms business operations, cost models, and infrastructure management. This post chronicles my journey from complete Azure novice to certified professional.
 
@@ -29,6 +29,7 @@ What started as a goal to understand cloud fundamentals turned into a deep dive 
 
 - **Certification Goal**: Microsoft AZ-900 Azure Fundamentals
 - **Study Duration**: 30 days (November 9 - December 9, 2024)
+ **Study Duration**: 30 days (August 13 - September 12, 2025)
 - **Background**: DevOps engineer with strong on-premises experience, minimal cloud knowledge
 - **Study Resources**:
   - Microsoft Learn (primary resource)
@@ -193,7 +194,7 @@ For each governance topic:
 # 🎯 Outcome & Next Steps
 
 ## Success Metrics
-- ✅ Passed AZ-900 on December 9, 2024 (first attempt)
+- ✅ Passed AZ-900 on September 12, 2025 (first attempt)
 - ✅ Scored above 850/1000 (exact score: 867)
 - ✅ Completed all Microsoft Learn modules in the official path
 - ✅ Achieved 90%+ on practice exams consistently
@@ -207,7 +208,7 @@ For each governance topic:
 4. **Practice explaining concepts to others**: Teaching reinforces understanding and identifies gaps
 
 ## Future Certification Path
-- **Next target**: AZ-104 Azure Administrator (planned for Q2 2025)
+- **Next target**: AZ-104 Azure Administrator (planned for Q1 2026)
 - **Long-term goal**: AZ-305 Azure Solutions Architect Expert
 - **Specialization focus**: DevOps and infrastructure automation
 - **Continuous learning**: Stay current with Azure updates and new services
