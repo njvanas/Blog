@@ -10,6 +10,23 @@ layout: post
 
 What started as a goal to understand cloud fundamentals turned into a deep dive into Azure's ecosystem. The AZ-900 isn't just about memorizing services—it's about understanding how cloud computing transforms business operations, cost models, and infrastructure management. This certification laid the foundation for my cloud architecture career path.
 
+<div class="alert alert-success">
+🎉 <strong>Certification Achieved!</strong> <a href="https://learn.microsoft.com/api/credentials/share/en-us/NJvanAs-2563/1B0DFB6C13CB87EF?sharingId=22E7BEB2A2B33ED7" target="_blank" rel="noopener">View my official Microsoft AZ-900 certification credential</a>
+</div>
+
+<div style="text-align: center; margin: 2rem 0;">
+  <iframe 
+    src="https://learn.microsoft.com/api/credentials/share/en-us/NJvanAs-2563/1B0DFB6C13CB87EF?sharingId=22E7BEB2A2B33ED7" 
+    width="100%" 
+    height="400" 
+    frameborder="0" 
+    style="border: 2px solid var(--blue-400); border-radius: var(--radius-lg); box-shadow: var(--shadow-lg);">
+  </iframe>
+  <p style="margin-top: 1rem; font-size: 0.875rem; color: var(--text-gray-400);">
+    <em>Official Microsoft Learn certification credential - click to view full details</em>
+  </p>
+</div>
+
 ---
 
 # 🧱 Project / Setup Context
@@ -169,7 +186,7 @@ What started as a goal to understand cloud fundamentals turned into a deep dive 
 # 🎯 Outcome & Next Steps
 
 ## Success Metrics Achieved
-- ✅ **Passed AZ-900 on December 9th, 2025** (first attempt)
+- ✅ **Passed AZ-900 on December 9th, 2025** (first attempt) - [Official Credential](https://learn.microsoft.com/api/credentials/share/en-us/NJvanAs-2563/1B0DFB6C13CB87EF?sharingId=22E7BEB2A2B33ED7)
 - ✅ **Scored above average** in all exam domains
 - ✅ **Built practical Azure knowledge** through hands-on labs
 - ✅ **Created comprehensive study guide** for future reference and sharing
