@@ -1,6 +1,6 @@
 ---
 title: "AZ-900 Azure Fundamentals: From Zero to Certified in 30 Days"
-date: 2025-12-09
+date: 2025-01-15
 tags: [azure, certification, exam-prep, cloud, az-900]
 layout: post
 ---
